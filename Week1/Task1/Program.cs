@@ -14,7 +14,7 @@ namespace Task1
             if (a <= 1) return false;
             else
             {
-                for(int i=2; i<a; i++)
+                for(int i=2; i<Math.Sqrt(a); i++)
                 {
                     if (a % i == 0) return false;
                 }
