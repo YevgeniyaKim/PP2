@@ -12,6 +12,7 @@ namespace Task2
         //create new public variables
         public string name, id;
         public int year=0;
+        
         //create a constructor
         public Student(string n, string i)
         {

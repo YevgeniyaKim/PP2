@@ -29,7 +29,7 @@ namespace Task2
             //create a list only for prime numbers
             List<string> res = new List<string>();
             //open file of input
-            FileStream fs = new FileStream(@"C:\PP2\W2\Week2\Task2\input.txt", FileMode.Open, FileAccess.Read);
+            FileStream fs = new FileStream(@"input.txt", FileMode.Open, FileAccess.Read);
             StreamReader sr = new StreamReader(fs);
             //read a string
             string line = sr.ReadLine();
@@ -47,7 +47,7 @@ namespace Task2
             sr.Close();
             fs.Close();
             //create a new file to output
-            FileStream fs2 = new FileStream(@"C:\PP2\W2\Week2\Task2\output.txt", FileMode.Create, FileAccess.Write);
+            FileStream fs2 = new FileStream(@"output.txt", FileMode.Create, FileAccess.Write);
             StreamWriter sw = new StreamWriter(fs2);
             //write a result in output file
             foreach (var x in res)

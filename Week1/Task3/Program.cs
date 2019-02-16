@@ -23,7 +23,9 @@ namespace Task3
                 arr[i] = int.Parse(nums[i]);
                 //printing every element twice
                 Console.Write(arr[i] + " " + arr[i] + " ");
+                
             }
+            Console.ReadKey();
         }
     }
 }

@@ -30,8 +30,9 @@ namespace Task3
         static void Main(string[] args)
         {
             //choose a folder
-            DirectoryInfo di = new DirectoryInfo(@"C:\PP2\W2");
+            DirectoryInfo di = new DirectoryInfo(@"C:\PP2\Week2");
             PrintInfo(di, 1);
+            Console.ReadKey();
         }
     }
 }

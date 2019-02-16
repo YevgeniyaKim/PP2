@@ -23,7 +23,7 @@ namespace Task1
         static void Main(string[] args)
         {
             //open the file at the specified path and read it
-            FileStream fs = new FileStream(@"C:\PP2\W2\Week2\Task1\input.txt", FileMode.Open, FileAccess.Read);
+            FileStream fs = new FileStream(@"input.txt", FileMode.Open, FileAccess.Read);
             StreamReader sr = new StreamReader(fs);
             string s = sr.ReadToEnd();
             //close the file
@@ -32,6 +32,7 @@ namespace Task1
             //create an array of chars with the size of string s
             if (Pal(s)) Console.WriteLine("Yes");
             else Console.WriteLine("No");
+            Console.ReadKey();
         }
     }
 }

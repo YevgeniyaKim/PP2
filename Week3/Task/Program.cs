@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -75,11 +76,25 @@ namespace Task
                 switch (key.Key)
                 {
                     case ConsoleKey.UpArrow:
-                        history.Peek().SelectedItem--;
+                        if(history.Peek().SelectedItem - 1 < 0)
+                        {
+                            history.Peek().SelectedItem = history.Peek().Content.Length - 1;
+                        }
+                        else
+                        {
+                            history.Peek().SelectedItem--;
+                        }
                         break;
 
                     case ConsoleKey.DownArrow:
-                        history.Peek().SelectedItem++;
+                        if (history.Peek().SelectedItem + 1 >= history.Peek().Content.Length)
+                        {
+                            history.Peek().SelectedItem = 0;
+                        }
+                        else
+                        {
+                            history.Peek().SelectedItem++;
+                        }
                         break;
 
                     case ConsoleKey.Enter: //open file or directory
