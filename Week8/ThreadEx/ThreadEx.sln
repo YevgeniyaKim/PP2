@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadEx", "ThreadEx\ThreadEx.csproj", "{13041EAD-B253-4EFB-8218-534F4CF60539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1Quiz", "Task1Quiz\Task1Quiz.csproj", "{36105FA7-1383-406F-AAC6-242B4F07FE03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTimer", "ThreadTimer\ThreadTimer.csproj", "{58F53FE2-88EF-4513-AA37-2A11F50AEC22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerEx", "TimerEx\TimerEx.csproj", "{26D7F43A-0C57-4125-BC0D-AEBFBBBF4FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskEx", "TaskEx\TaskEx.csproj", "{53D5517A-F384-446E-AF85-1E6543B06AD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "traffic", "traffic\traffic.csproj", "{4C13A71C-F04D-47AA-988C-A2790A4A1616}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13041EAD-B253-4EFB-8218-534F4CF60539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13041EAD-B253-4EFB-8218-534F4CF60539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13041EAD-B253-4EFB-8218-534F4CF60539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13041EAD-B253-4EFB-8218-534F4CF60539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36105FA7-1383-406F-AAC6-242B4F07FE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36105FA7-1383-406F-AAC6-242B4F07FE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36105FA7-1383-406F-AAC6-242B4F07FE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36105FA7-1383-406F-AAC6-242B4F07FE03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F53FE2-88EF-4513-AA37-2A11F50AEC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F53FE2-88EF-4513-AA37-2A11F50AEC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F53FE2-88EF-4513-AA37-2A11F50AEC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F53FE2-88EF-4513-AA37-2A11F50AEC22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D7F43A-0C57-4125-BC0D-AEBFBBBF4FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D7F43A-0C57-4125-BC0D-AEBFBBBF4FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D7F43A-0C57-4125-BC0D-AEBFBBBF4FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D7F43A-0C57-4125-BC0D-AEBFBBBF4FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D5517A-F384-446E-AF85-1E6543B06AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D5517A-F384-446E-AF85-1E6543B06AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D5517A-F384-446E-AF85-1E6543B06AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D5517A-F384-446E-AF85-1E6543B06AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C13A71C-F04D-47AA-988C-A2790A4A1616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C13A71C-F04D-47AA-988C-A2790A4A1616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C13A71C-F04D-47AA-988C-A2790A4A1616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C13A71C-F04D-47AA-988C-A2790A4A1616}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDAC0182-3EDE-41E9-A0CF-0841054DEFFA}
+	EndGlobalSection
+EndGlobal
